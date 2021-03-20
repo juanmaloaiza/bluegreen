@@ -9,6 +9,8 @@ if ( $deployment == 'blue') {
   $color = imagecolorallocate($im, 0, 0, 255);
 } elseif ($deployment == 'green')  {
   $color = imagecolorallocate($im, 0, 255, 0);
+} elseif ($deployment == 'yellow')  {
+  $color = imagecolorallocate($im, 255, 255, 0);
 } else {
   $color = imagecolorallocate($im, 0, 0, 255);
 }
