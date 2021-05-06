@@ -6,7 +6,7 @@ if ( $deployment == 'blue') {
   $color = 'blue';
 } elseif ($deployment == 'green')  {
   $color = 'green';
-} elseif ($deployment == 'yello')  {
+} elseif ($deployment == 'yellow')  {
   $color = 'yellow';
 } else {
   $color = 'blue';
